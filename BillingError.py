@@ -138,7 +138,7 @@ def openCredits():
     Label(Credits, text='\nMethods Used:', font='Helvetica 10 bold').pack()
     Label(Credits, text="Python(mainly pyautogui) & SAP Script Recording\n").pack()
     Label(Credits, text='\nSpecial Thanks to:', font='Helvetica 10 bold').pack()
-    Label(Credits, text="홍두표 사원님\n").pack()
+    Label(Credits, text="HDP 사원님\n").pack()
     Button(Credits, text = '      닫기      ', command= Credits.destroy).pack(pady=10)
     ws = Credits.winfo_screenwidth()  # width of the screen
     hs = Credits.winfo_screenheight()  # height of the screen
